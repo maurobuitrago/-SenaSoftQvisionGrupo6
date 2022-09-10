@@ -25,18 +25,19 @@ public class LoginStepDefinitions {
 
     @Given("^The user is about to join$")
     public void theUserIsAboutToJoin() {
-
+        OnStage.theActorInTheSpotlight().wasAbleTo(Open.url("https://www.bon-bonite.com"));
     }
 
 
     @When("^he enter the credentials$")
     public void heEnterTheCredentials() {
+        System.out.println("hola1");
 
     }
 
     @Then("^he join successful$")
     public void heJoinSuccessful() {
-
+        System.out.println("Hola3");
     }
 
 
