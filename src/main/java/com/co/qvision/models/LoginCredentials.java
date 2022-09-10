@@ -24,5 +24,5 @@ public class LoginCredentials {
     public String getPassword() {
         return password;
     }
-    
+
 }
