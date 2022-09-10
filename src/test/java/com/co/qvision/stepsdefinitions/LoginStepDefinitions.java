@@ -38,7 +38,7 @@ public class LoginStepDefinitions {
     public void heEnterTheCredentials(List<LoginCredentials> credentialsList) {
         LoginCredentials loginCredentials;
         loginCredentials = credentialsList.get(0);
-        OnStage.theActorInTheSpotlight().attemptsTo(Login.enter(loginCredentials));
+        jonathan.attemptsTo(Login.enter(loginCredentials));
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
